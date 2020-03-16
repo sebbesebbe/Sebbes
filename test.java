@@ -54,7 +54,7 @@ public class test {
 
 	public static String readInput() throws IOException {
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-		System.out.print("Sidnummer: ");
+		System.out.print("Page numbers: ");
 		String s = reader.readLine();
 		return s;
 	}
